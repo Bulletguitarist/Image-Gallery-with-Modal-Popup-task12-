@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery with Modal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title">Image Gallery🖼️ </h1>
+
+    <!-- IMAGE GALLERY -->
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/400/300" alt="Gallery Image">
+        <img src="https://picsum.photos/id/1025/400/300" alt="Gallery Image">
+        <img src="https://picsum.photos/id/1035/400/300" alt="Gallery Image">
+        <img src="https://picsum.photos/id/1045/400/300" alt="Gallery Image">
+        <img src="https://picsum.photos/id/1055/400/300" alt="Gallery Image">
+        <img src="https://picsum.photos/id/1065/400/300" alt="Gallery Image">
+    </div>
+
+    <!-- MODAL (Hidden by default) -->
+    <div class="modal" id="modal">
+        <span class="close-btn" id="closeBtn">&times;</span>
+        <img class="modal-img" id="modalImg" alt="Enlarged Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
